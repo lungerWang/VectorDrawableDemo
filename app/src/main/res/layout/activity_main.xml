@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/activity_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                tools:context="com.example.lunger.vectordemo.MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_robot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/animated_vector_robot"
+        />
+
+    <ImageView
+        android:id="@+id/iv_triangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_robot"
+        app:srcCompat="@drawable/animated_vector_star"
+        />
+
+    <ImageView
+        android:id="@+id/iv_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@null"
+        android:src="@drawable/vector_arrow"
+        />
+
+
+</RelativeLayout>
